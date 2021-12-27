@@ -1,5 +1,5 @@
 {
-    "name": "google/apiclient",
+    "name": "ghua/legacy-google-apiclient",
     "type": "library",
     "description": "Client library for Google APIs",
     "keywords": ["google"],
@@ -9,8 +9,8 @@
         "php": ">=5.2.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.*",
-        "squizlabs/php_codesniffer": "~2.3"
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*"
     },
     "autoload": {
         "files": ["src/Google/autoload.php"]
